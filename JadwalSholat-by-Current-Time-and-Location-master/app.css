@@ -1,0 +1,42 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+#app {
+    width: 500px;
+    margin: 0px auto;
+    margin-top: 70px;
+}
+
+#app h3 {
+    font-size: 1.7em;
+    margin-bottom: 0;
+    padding: 0.3em;
+    background: #2b9eba;
+    color: rgb(243, 243, 243);
+    text-align: center;
+}
+
+#app table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#app table td {
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+#app table td:last-child {
+    text-align: right;
+}
+
+#app table tr::nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+#app table tr:hover {
+    background-color: #90cedd;
+    color: white;
+    cursor: pointer;
+}
